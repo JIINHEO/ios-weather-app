@@ -17,6 +17,7 @@
 		E8B2EBD9273651BA007E23DD /* ios_weather_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2EBD8273651BA007E23DD /* ios_weather_appUITests.swift */; };
 		E8B2EBDB273651BA007E23DD /* ios_weather_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2EBDA273651BA007E23DD /* ios_weather_appUITestsLaunchTests.swift */; };
 		E8B2EBE82738FD2F007E23DD /* WeatherInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2EBE72738FD2F007E23DD /* WeatherInformation.swift */; };
+		E8B2EBEA273B8CBE007E23DD /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2EBE9273B8CBE007E23DD /* ErrorMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E8B2EBD8273651BA007E23DD /* ios_weather_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_weather_appUITests.swift; sourceTree = "<group>"; };
 		E8B2EBDA273651BA007E23DD /* ios_weather_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_weather_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E8B2EBE72738FD2F007E23DD /* WeatherInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInformation.swift; sourceTree = "<group>"; };
+		E8B2EBE9273B8CBE007E23DD /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		E8B2EBAB273651B5007E23DD = {
 			isa = PBXGroup;
 			children = (
+				E8B2EBE9273B8CBE007E23DD /* ErrorMessage.swift */,
 				E8B2EBB6273651B5007E23DD /* ios-weather-app */,
 				E8B2EBCD273651BA007E23DD /* ios-weather-appTests */,
 				E8B2EBD7273651BA007E23DD /* ios-weather-appUITests */,
@@ -263,6 +266,7 @@
 			files = (
 				E8B2EBBC273651B5007E23DD /* ViewController.swift in Sources */,
 				E8B2EBE82738FD2F007E23DD /* WeatherInformation.swift in Sources */,
+				E8B2EBEA273B8CBE007E23DD /* ErrorMessage.swift in Sources */,
 				E8B2EBB8273651B5007E23DD /* AppDelegate.swift in Sources */,
 				E8B2EBBA273651B5007E23DD /* SceneDelegate.swift in Sources */,
 			);
